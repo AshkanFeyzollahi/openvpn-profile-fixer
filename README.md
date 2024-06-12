@@ -10,6 +10,7 @@ For more details about `UNKNOWN/UNSUPPORTED OPTIONS`, look at https://support.op
 ## Requirements
 
 Python >= 3.7
+Pip - Latest
 
 ## How to use?
 
