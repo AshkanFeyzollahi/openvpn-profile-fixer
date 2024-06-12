@@ -18,7 +18,7 @@ For more details about `UNKNOWN/UNSUPPORTED OPTIONS`, look at https://support.op
     by entering this command in terminal/cmd:
 
     ```bash
-    git clone AshkanFeyzollahi/ovpn_pfix
+    git clone https://github.com/AshkanFeyzollahi/openvpn-profile-fixer.git
     ```
 
 2. Go to where you cloned repository files to and open terminal/cmd.
