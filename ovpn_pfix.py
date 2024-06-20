@@ -1,6 +1,6 @@
 """ovpn_pfix
 
-The module that fixes unsupported OpenVPN profiles."""
+This script modifies unsupported options within OpenVPN profiles."""
 import re
 from io import TextIOWrapper
 
@@ -10,10 +10,10 @@ with open("./supported-options.txt", "r") as f:
     SUPPORTED_OPTIONS = [line[:-1] for line in f.readlines()]
 
 @click.command()
-@click.option("--input", "-I", type=click.File(), help="The OpenVPN profile that user want to fix.")
-@click.option("--output", "-O", type=click.File('w'), help="Output filename.")
+@click.option("--input", "-I", type=click.File(), help="Specify the input .ovpn file name.")
+@click.option("--output", "-O", type=click.File('w'), help="Define the output filename.")
 def _ovpn_pfix(input: TextIOWrapper, output: TextIOWrapper) -> None:
-    """Fixes unsupported OpenVPN profiles."""
+    """This script modifies unsupported options within OpenVPN profiles."""
 
     content_of_new_profile: str = ""
 
